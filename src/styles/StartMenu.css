@@ -1,0 +1,242 @@
+.loading-text {
+    font-size: 2rem;
+    top: 45%;
+    font-family: CompBold;
+}
+
+.menu-content {
+    box-sizing: border-box;
+    display: flex;
+    gap: 6.75%;
+    padding: 5.85%;
+
+    height: 100%;
+    align-items: center;
+}
+
+.menu-image {
+    width: 68%;
+}
+
+.play-button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button {
+    border-radius: 8px;
+    border: none;
+    font-family: CompBold;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+    padding: 14px 10px 10px 10px;
+    flex-grow: 1;
+    text-align: left;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.menu-buttons-accordion {
+    height: 0;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    display: flex;
+    gap: 5%;
+}
+
+.sub-menu {
+    margin-top: 15px;
+    flex-grow: 1;
+}
+
+.menu-button-a {
+    background-color: #B2142B;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 24px 10px 16px 10px;
+    margin-bottom: 6px;
+}
+
+.menu-button-b {
+    background-color: #E99217;
+}
+
+.menu-button-c {
+    background-color: #0BA6EE;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 1rem;
+    flex-grow: 1;
+    color: #fff;
+}
+
+.join-code-input {
+  padding: 12px 10px 8px;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 1px;
+
+  font-family: Medium;
+}
+
+.game-code-spacer {
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-code-container {
+  background-color: #F8F3EC;
+  border-radius: 100px;
+  padding: 25px 35px;
+  display: flex;
+  gap: 40px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy-tooltip {
+  position: absolute;
+  right: 65px;
+  top: -12px;
+  text-align: center;
+  background-color: #999;
+  transform: translate(50%, 0);
+  padding: 3px 10px;
+  border-radius: 20px;
+  z-index: 100;
+}
+
+.copy-tooltip::after {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background-color: #999;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.copy-btn {
+  padding: 13px 10px 11px 10px;
+  flex-grow: 0;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-family: Medium;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+}
+
+.game-code-text {
+  text-transform: lowercase;
+  margin: 0;
+  flex-grow: 1;
+  font-family: Medium;
+  font-size: 24px;
+  text-align: left;
+}
+
+input {
+    font-family: MenuBold;
+}
+
+.error-message {
+    color: #B2142B;
+    font-weight: 700;
+    line-height: 1.2;
+    flex-grow: 1; 
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%, 0);
+}  
+
+h2 {
+    margin: 0;
+    font-size: 2.5em;
+    line-height: 1;
+}
+
+.invite-screen {
+    align-items: center;
+}
+
+.rules-section-container {
+    display: flex;
+    gap: 13px;
+    justify-content: space-around;
+    padding: 0px 3%;
+}
+
+.rules-section {
+    flex: 1;
+    padding: 2%;
+    background-color: #F3F0ED;
+    border-radius: 3px;
+}
+
+.rules-subtext {
+    font-size: 0.66rem;
+    flex-grow: 1;
+}
+
+.rules-section-title {
+    font-family: Medium;
+    line-height: 135%;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 0.88rem;
+
+}
+
+.rules-section-content {
+    line-height: 135%;
+    text-align: left;
+    font-size: 0.68rem;
+}
+
+.rules-screen > .game-input-action-btn-group > .game-input-action-btn {
+    color: #fff;
+    padding: 6px 15px 2px;
+}
+
+div > label {
+    font-family: Regular;
+    font-size: 0.9rem;
+}
+
+label > a {
+    font-family: Medium;
+    color: #0076AD;
+}
+.version-text {
+    text-align: left;
+    font-size: 14px;
+}
+
+.link-arrow {
+    width: 10px;
+    height: 10px;
+}
+
+.game-subtitle {
+    text-align: left;
+    font-family: CondMedium;
+}

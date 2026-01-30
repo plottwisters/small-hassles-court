@@ -1,0 +1,96 @@
+label {
+    text-align: left;
+
+    margin: 0;
+    font-family: MenuCond;
+}
+.name-input {
+    font-family: Medium;
+    font-size: 24px;
+    padding: 26px 20px 22px;
+    border-radius: 8px;
+    border: none;
+    background-color: #F8F3EC;
+    color: black;
+    text-align: center;
+    line-height: 135%;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+.rules-panel {
+    color: black;
+    text-align: left;
+    width: 99%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+
+    /* TEMP */
+    background-image: url('../assets/cloud.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 110px 150px;
+    font-size: 0.8em;
+}
+
+.rules-action-btn {
+    width: 100%;
+}
+
+
+.avatar-menu {
+    justify-content: space-between;
+}
+
+.avatar-title, .intake-title {
+    font-family: MenuCond;
+    font-size: 2rem;
+}
+
+.avatar-buttons-container {
+    align-items: stretch;
+    display: flex;
+    gap: 1%;
+}
+
+.avatar-button {
+    width: 20%;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.avatar-button:hover {
+    background-color: #F3F0ED;
+}
+
+.avatar-img {
+    width: 110px;
+}
+
+.avatar-button > p {
+    margin-top: 5px;
+    line-height: 1.1;
+    font-family: CondMedium;
+    font-size: 0.9rem;
+    text-wrap: nowrap;
+    overflow: visible;
+}
+
+.avatar-button-selected {
+    box-shadow: inset 0 0 0 2px black;
+    background-color: #F3F0ED;
+}
+
+.back-btn {
+    position: absolute;
+    font-size: 16px;
+    font-family: Medium;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 2px solid black;
+}

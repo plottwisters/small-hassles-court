@@ -1,0 +1,207 @@
+.game-input-container {
+    height: 100%;
+    width: 50%;
+    color: #000;
+
+    font-family: Regular;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.game-input-text-container {
+    position: relative;
+
+}
+
+.game-input-narrow {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+}
+
+.game-input-text {
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.35;
+    font-family: Regular;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    color: #000;
+    text-align: left;
+}
+
+div.game-input-text {
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    background-color: #DED7F4;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 17px;
+}
+
+.game-input-speaker {
+    text-transform: uppercase;
+    color: #7F7798;
+    font-size: 16px;
+    font-family: MenuSerif;
+}
+
+textarea.game-input-text, .adlib-container {
+    resize: none;
+    color: #000;
+    outline: none;
+    border: 2px solid #806CBE;
+}
+
+.char-counter {
+    text-align: right;
+    font-size: 0.8em;
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    user-select: none;
+}
+
+.game-input-action-btn-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game-input-action-btn {
+    border-radius: 100px;
+    border: none;
+    padding: 16px 0px 12px;
+    font-size: 24px;
+    font-family: CompBold;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-wrap: nowrap;
+    flex-grow: 1;
+    color: #000;
+}
+
+.action-btn-primary {
+    background-color: #FFD09F;
+}
+
+.action-btn-secondary {
+    background-color: #AEE5FF;
+}
+
+.action-btn-single {
+    background-color: #FFE591;
+}
+
+.action-btn-negate, .game-input-action-btn:disabled {
+    background-color: #C0B3E8;
+}
+
+.action-btn-terminal {
+    background-color: #EFB6C0;
+}
+
+.action-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.response-prompt {
+    text-wrap: nowrap;
+}
+
+.response-pill {
+    background-color: #e35b2a;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 10px 2px;
+    border: 3px solid black;
+
+    border-bottom-width: 5px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    user-select: none;
+    line-height: 1;
+}
+
+.editable-block:empty:before {
+    content: attr(placeholder);
+    color: #7F7798;
+    pointer-events: none;
+}
+
+.editable-block, .adlib-display-block {
+    padding: 10px 7px 9px;
+    margin: 2px 5px;
+    border-radius: 3px;
+    background-color: #fff;
+
+    font-family: Regular;
+    font-size: 18px;
+    border: none;
+    color: #000;
+    outline: none;
+}
+
+.tapestry-prompt-header {
+    border: 4px solid #806CBE;
+}
+
+.game-input-container > .popup-action-btn {
+    background-color: #FFE591;
+    color: #000;
+}
+
+.game-input-container > .popup-action-btn:disabled {
+    background-color: #CBC9C8;
+}
+
+.adlib-content {
+    color: #000;
+    text-align: center;
+}
+
+.adlib-content > div  {
+    display: inline-block;
+}
+
+.adlib-container-uneditable {
+    border: none;
+}
+
+.exit-btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    font-family: Regular;
+    font-size: 16px;
+}
+
+.exit-btn-row {
+    user-select: none;
+}
+
+.exit-btn {
+    font-family: Medium;
+    text-decoration: underline;
+    cursor: pointer;
+}
