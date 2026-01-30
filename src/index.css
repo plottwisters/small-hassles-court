@@ -1,0 +1,12 @@
+:root {
+  font-family: Regular;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #AB9BDF;
+  color: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
